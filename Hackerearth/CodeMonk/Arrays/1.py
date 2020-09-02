@@ -8,7 +8,7 @@ for i in range(t):
         arr.append(list(map(int, input().strip().split())))
     index_mat1 = []
     index_mat2 = []
-    count = 0
+    c = 0
     for i in range(n):
         for j in range(n):
             index_mat1.append((i,j))
@@ -18,8 +18,8 @@ for i in range(t):
         for p,q in index_mat2:
             if i <= p and j <= q:
                 if arr[i][j] > arr[p][q]:
-                    count += 1
+                    c += 1
 
-    print(count)
+    print(c)
 
 
