@@ -39,6 +39,6 @@ def roadsAndLibraries(n, c_lib, c_road, cities):
             conn_com.append(res)
     #total += len(conn_com)*(c_lib) + (n -len(conn_com)) * c_road
     #return total
-    return (len(conn_com)*(c_lib) + (n -len(conn_com)) * c_road   ) 
+    return (len(conn_com)*(c_lib) + (n -len(conn_com)) * c_road ) 
 
 
