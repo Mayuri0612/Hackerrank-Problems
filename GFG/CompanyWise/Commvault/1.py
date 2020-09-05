@@ -4,6 +4,6 @@ def rightShift(m,n):
     return (m >> n)
 
 n, m = map(int, input().split())
-print(rightShift(m,n))
+print( rightShift(m,n) )
 
 
