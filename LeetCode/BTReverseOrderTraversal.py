@@ -27,4 +27,4 @@ class Solution(object):
                     queue.append(node.right)
             lis.append(ans)
         lis.reverse()
-        return lis
+        return(lis)
