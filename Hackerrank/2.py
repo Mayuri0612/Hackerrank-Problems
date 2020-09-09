@@ -10,7 +10,7 @@ import sys
 from collections import defaultdict
 
 
-# Complete the journeyToMoon function below.
+# Complete the journeyToMoon function below...
 def journeyToMoon(n, astronaut):
     def DFS(u):
         visited.add(u)
