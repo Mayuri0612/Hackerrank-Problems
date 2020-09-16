@@ -1,4 +1,4 @@
-t = int(input())
+t = int(input() )
 for _ in range(t):
     n,x = map(int, input().strip().split())
     arr = set(input().strip().split())
