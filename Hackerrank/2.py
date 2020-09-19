@@ -46,7 +46,7 @@ def journeyToMoon(n, astronaut):
 
 
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+    fptr = open(os.environ['OUTPUT_PATH'], 'w' )
 
     np = input().split()
 
